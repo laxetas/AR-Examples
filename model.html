@@ -162,7 +162,7 @@ function animate()
 	requestAnimationFrame(animate);
 	deltaTime = clock.getDelta();
 	totalTime += deltaTime;
-	mesh0.rotation.z=deltaTime;
+	mesh0.rotation.z+=deltaTime;
 	update();
 	render();
 }
